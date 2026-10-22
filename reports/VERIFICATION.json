@@ -1,0 +1,42 @@
+{
+  "package": "HQ10W-Clean-Full-1.zip",
+  "bytes": 922039318,
+  "sha256": "929b3fc9a226e0fb78d369992ce562ced7bf91364541c39f91264d2c3a46211e",
+  "signature_cryptographically_valid": true,
+  "signer_spki_sha256": "ef57b690165cb561b5026922c00d2d6574e8b184fa7d161e076f06e06e6d35db",
+  "signer_matches_oem_and_recovery": true,
+  "signature_algorithm": "SHA1/RSA, whole-file detached CMS, matching the OEM legacy certificate and AOSP SignApk selection",
+  "signing_key_type": "public AOSP development test key, inherited OEM trust model; not a private production key",
+  "unchanged_oem_payloads": {
+    "atf.bin": "9598b7792704e1208a3da4fa284e91c28daceb4496fb5dd5854259dfd72e8e58",
+    "boot.img": "1e495ef02c42cc628a33240d4d8a8df8be3300960fe5ed023a7c886a62b418e8",
+    "bootargs.img": "f6585b4415e4d74f62aba28433fa21ddf4acfd3ae3336cea156b85cad42c4bc6",
+    "bootargsbak.img": "f6585b4415e4d74f62aba28433fa21ddf4acfd3ae3336cea156b85cad42c4bc6",
+    "dtbo.img": "5407c0651930a8b4ce4a4f3f3762e06e0d6c9bd6f2a90426d9df8b3e07a10292",
+    "fastboot.img": "eeb05f98c68b61e0a0f7d64081699bad13a4d5a9c579cb0a02c2e16d79e2fba8",
+    "recovery.img": "79827f0eac2a8dd5aeaa07469b499de13c2de451fbcaa6e725b19770aa3625d2",
+    "slaveboot.img": "75f17dbb8580b5aecd3e64a4023460988517ba8db28fa8bd9c048978cf21bd8b",
+    "tcon.bin": "4b5101d4bb59dffa1697b3198de958bee6b45f99d0486d34abb946772c1c0d3f",
+    "META-INF/com/google/android/update-binary": "e7ddc1e0e4aabdec3a5ebc3db58babc3c08548b3b26bd646170efeaaf1989943"
+  },
+  "full_streams": {
+    "system": {
+      "full_blocks": 640000,
+      "commands": 625,
+      "raw_bytes": 2621440000,
+      "stream_sha256": "3482bf0ed332d50995bddfb9c93eb27187203343d1511e32933efe7547e11bae",
+      "decompression_matches_image": true
+    },
+    "vendor": {
+      "full_blocks": 76800,
+      "commands": 75,
+      "raw_bytes": 314572800,
+      "stream_sha256": "e8d24c83a72b49ab08c867e2c4a30b6da493e92ed40940c69d75699cae1e0474",
+      "decompression_matches_image": true
+    }
+  },
+  "userdata_included": false,
+  "actual_recovery_install_tested": false,
+  "actual_clean_boot_tested": false,
+  "actual_rollback_tested": false
+}

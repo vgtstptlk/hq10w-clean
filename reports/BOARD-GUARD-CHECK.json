@@ -1,0 +1,10 @@
+{
+  "board_guard_host_cases": [
+    "current-files factory properties accepted",
+    "target-files factory properties accepted",
+    "different project rejected",
+    "different system size rejected",
+    "different system position rejected"
+  ],
+  "scope": "recorded old/new factory properties and recorded hardware layout; no Recovery execution or flashing"
+}

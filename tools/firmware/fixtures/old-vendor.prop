@@ -1,0 +1,5 @@
+ro.vendor.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.vendor.build.date.utc=1733405127
+ro.vendor.build.version.release=12
+ro.board.platform=bigfish
+ro.newlink.projectname=YG_5H080_693_RX_ZX

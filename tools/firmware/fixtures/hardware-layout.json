@@ -1,0 +1,136 @@
+{
+  "layout": {
+    "mmcblk0p1": {
+      "start": "0",
+      "size": "16384"
+    },
+    "mmcblk0p10": {
+      "start": "290816",
+      "size": "2048"
+    },
+    "mmcblk0p11": {
+      "start": "292864",
+      "size": "4096"
+    },
+    "mmcblk0p12": {
+      "start": "296960",
+      "size": "16384"
+    },
+    "mmcblk0p13": {
+      "start": "313344",
+      "size": "20480"
+    },
+    "mmcblk0p14": {
+      "start": "333824",
+      "size": "2048"
+    },
+    "mmcblk0p15": {
+      "start": "335872",
+      "size": "2048"
+    },
+    "mmcblk0p16": {
+      "start": "337920",
+      "size": "20480"
+    },
+    "mmcblk0p17": {
+      "start": "358400",
+      "size": "20480"
+    },
+    "mmcblk0p18": {
+      "start": "378880",
+      "size": "163840"
+    },
+    "mmcblk0p19": {
+      "start": "542720",
+      "size": "8192"
+    },
+    "mmcblk0p2": {
+      "start": "16384",
+      "size": "2048"
+    },
+    "mmcblk0p20": {
+      "start": "550912",
+      "size": "5120000"
+    },
+    "mmcblk0p21": {
+      "start": "5670912",
+      "size": "614400"
+    },
+    "mmcblk0p22": {
+      "start": "6285312",
+      "size": "102400"
+    },
+    "mmcblk0p23": {
+      "start": "6387712",
+      "size": "122880"
+    },
+    "mmcblk0p24": {
+      "start": "6510592",
+      "size": "204800"
+    },
+    "mmcblk0p25": {
+      "start": "6715392",
+      "size": "2048"
+    },
+    "mmcblk0p26": {
+      "start": "6717440",
+      "size": "116293632"
+    },
+    "mmcblk0p3": {
+      "start": "18432",
+      "size": "2048"
+    },
+    "mmcblk0p4": {
+      "start": "20480",
+      "size": "4096"
+    },
+    "mmcblk0p5": {
+      "start": "24576",
+      "size": "81920"
+    },
+    "mmcblk0p6": {
+      "start": "106496",
+      "size": "16384"
+    },
+    "mmcblk0p7": {
+      "start": "122880",
+      "size": "4096"
+    },
+    "mmcblk0p8": {
+      "start": "126976",
+      "size": "81920"
+    },
+    "mmcblk0p9": {
+      "start": "208896",
+      "size": "81920"
+    }
+  },
+  "links": {
+    "atf": "mmcblk0p11",
+    "atv": "mmcblk0p22",
+    "boot": "mmcblk0p9",
+    "bootargs": "mmcblk0p2",
+    "bootargsbak": "mmcblk0p3",
+    "bootmusic": "mmcblk0p16",
+    "bootmusicsec": "mmcblk0p17",
+    "cache": "mmcblk0p24",
+    "demura": "mmcblk0p19",
+    "deviceinfo": "mmcblk0p7",
+    "dtbo": "mmcblk0p10",
+    "fastboot": "mmcblk0p1",
+    "log": "mmcblk0p23",
+    "logo": "mmcblk0p8",
+    "misc": "mmcblk0p15",
+    "panelparam": "mmcblk0p6",
+    "ramdisk": "mmcblk0p25",
+    "recovery": "mmcblk0p5",
+    "securestore": "mmcblk0p13",
+    "slaveboot": "mmcblk0p4",
+    "system": "mmcblk0p20",
+    "tconparam": "mmcblk0p18",
+    "trustedcore": "mmcblk0p12",
+    "userdata": "mmcblk0p26",
+    "vendor": "mmcblk0p21",
+    "versioninfo": "mmcblk0p14"
+  }
+}

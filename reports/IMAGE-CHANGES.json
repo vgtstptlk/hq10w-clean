@@ -1,0 +1,117 @@
+{
+  "base_sha256": "943268ea81004580476cfbf2069c212996d852f5dbc08a3533a6f97f11bfc292",
+  "source": "official OEM full OTA only; no live device dump",
+  "changed_files": [
+    {
+      "path": "/system/app/CleanTVHome/CleanTVHome.apk",
+      "sha256": "741c5f14306ddbc883132b10ff8b758380af730704d8ff0d3e95beff8a245cf7",
+      "bytes": 409519,
+      "selinux": "u:object_r:system_file:s0"
+    },
+    {
+      "path": "/system/app/HQ10WDAP/HQ10WDAP.apk",
+      "sha256": "3d1b29082f49c301cd9fe91a786b6a767fd6cb3f15ae86a2af2d95d1f993d6cf",
+      "bytes": 98843,
+      "selinux": "u:object_r:system_file:s0"
+    },
+    {
+      "path": "/system/app/NLSetting_V2/NLSetting_V2.apk",
+      "sha256": "6656027b48cfd5d1c5598757017a6a31afddb8d08f498bfb8cd88dfcbcf51d52",
+      "bytes": 39131515,
+      "selinux": "u:object_r:system_file:s0"
+    },
+    {
+      "path": "/etc/hq10w-clean/audio/audio_effects.conf",
+      "sha256": "1ab04dc34bf2f0ec1816423a3b7bb93c06ae1603432f731000f7ccf8c3c513b5",
+      "bytes": 6005,
+      "selinux": "u:object_r:vendor_configs_file:s0"
+    },
+    {
+      "path": "/etc/hq10w-clean/audio/healthy.sh",
+      "sha256": "34a0cf5b4730c0817697680b62b2bee57f8050cf4c405ea9119e85d145ae7bee",
+      "bytes": 501,
+      "selinux": "u:object_r:vendor_file:s0"
+    },
+    {
+      "path": "/etc/hq10w-clean/audio/libdlbatmos.so",
+      "sha256": "71993a2715c4605aadcb119220c6b2d4e2910148ec33557bbcbfa69102860fe2",
+      "bytes": 437880,
+      "selinux": "u:object_r:vendor_file:s0"
+    },
+    {
+      "path": "/etc/hq10w-clean/audio/libhqvirtualbass.so",
+      "sha256": "3b8c80e660d2c303c8e82730fdb704d6d4c05ad871fef49c9bddc0309159d65d",
+      "bytes": 14568,
+      "selinux": "u:object_r:vendor_file:s0"
+    },
+    {
+      "path": "/etc/hq10w-clean/audio/restore.sh",
+      "sha256": "4ba648e80b2861144ac270a5192481cdc6bce7d510254dd901aba2d72ffd77c8",
+      "bytes": 1383,
+      "selinux": "u:object_r:vendor_file:s0"
+    },
+    {
+      "path": "/etc/hq10w-clean/audio/speaker-control.jar",
+      "sha256": "a4b7dfc8d90b2bd2b30fe31dd178925e10f8bb3a9d1160e5b4785184c4bca33f",
+      "bytes": 2453,
+      "selinux": "u:object_r:vendor_file:s0"
+    },
+    {
+      "path": "/etc/hq10w-clean/audio/startup.sh",
+      "sha256": "fe744835ec0a90679e0b31aff0c6c2bccbdbb0d31e97056dc40a82094daeb294",
+      "bytes": 2389,
+      "selinux": "u:object_r:vendor_file:s0"
+    },
+    {
+      "path": "/etc/hq10w-clean/audio/watchdog.sh",
+      "sha256": "2a3b0075fa0eb40563df01cdf0c5830304139888c93fa47c0d9aab685c2e6343",
+      "bytes": 296,
+      "selinux": "u:object_r:vendor_file:s0"
+    },
+    {
+      "path": "/bin/hq10w-clean-home.sh",
+      "sha256": "3721757144a7ea8306c66644db83daa03bd70b7dc4505834ead5bfd7295c98d1",
+      "bytes": 461,
+      "selinux": "u:object_r:vendor_file:s0"
+    },
+    {
+      "path": "/bin/hq10w-clean-first-boot.sh",
+      "sha256": "a967ca0f67ace094c5433b4e0fc2403f896185c84f97cbe713032dfa770a7e61",
+      "bytes": 2411,
+      "selinux": "u:object_r:vendor_file:s0"
+    },
+    {
+      "path": "/etc/init/hw/init.bigfish.rc",
+      "sha256": "86c2b380857af0f95109cb9babcf45a84c260b65fd575e90f81eea86540d472a",
+      "bytes": 9729,
+      "selinux": "u:object_r:vendor_configs_file:s0"
+    },
+    {
+      "path": "/system/etc/hq10w-clean-release.txt",
+      "sha256": "20591e8a0ac0c25e074309ec8c6c37acb13bbd152af9974422c9578610af6ef0",
+      "bytes": 122,
+      "selinux": "u:object_r:system_file:s0"
+    }
+  ],
+  "removed_files": [
+    "/system/app/NLSetting_V2/oat/arm/NLSetting_V2.odex",
+    "/system/app/NLSetting_V2/oat/arm/NLSetting_V2.vdex"
+  ],
+  "system": {
+    "bytes": 2621440000,
+    "sha256": "ffd0ed4cf5f010b7bee0701bb8178b790cd7f6d48b2c9ea4c36bc6953e2bcf3a",
+    "fsck": "passed"
+  },
+  "vendor": {
+    "bytes": 314572800,
+    "sha256": "f9d317433fdbdcdff7823c6bea2d5b4ede42f2d66f0e610a8df22343ee5bad99",
+    "fsck": "passed"
+  },
+  "preserved_factory_fallback": [
+    "NLProvision",
+    "Whale launcher",
+    "stock audio config",
+    "thermal service",
+    "firmware updater"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "usb_preflight_host_cases": [
+    "matching older base",
+    "non-root context",
+    "different OEM hook",
+    "damaged board guard",
+    "board guard refused",
+    "newer firmware",
+    "multiple USB volumes",
+    "unsupported USB filesystem",
+    "wrong USB block device",
+    "damaged full OTA",
+    "repeat install request blocked"
+  ],
+  "scope": "simulated CHECK/refusal/repeat-request branches only; no real Recovery request or device write tested"
+}
