@@ -1,0 +1,16 @@
+{
+  "package": "HQ10W-Clean-Full-1-USB.zip",
+  "release_tag": "full-1",
+  "bytes": 1844162535,
+  "sha256": "08d443b6d01b7c3c471be3cd50761a8e7b9ea3d3067200fabd8b4e2f715fb473",
+  "files": 22,
+  "default_mode": "CHECK",
+  "archive_integrity": "passed",
+  "full_ota_sha256": "929b3fc9a226e0fb78d369992ce562ced7bf91364541c39f91264d2c3a46211e",
+  "factory_ota_sha256": "943268ea81004580476cfbf2069c212996d852f5dbc08a3533a6f97f11bfc292",
+  "signed_ota_bytes_unchanged": true,
+  "modified_image_readbacks_checked": 15,
+  "actual_recovery_install_tested": false,
+  "actual_clean_boot_tested": false,
+  "actual_rollback_tested": false
+}
