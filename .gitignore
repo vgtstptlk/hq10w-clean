@@ -42,3 +42,14 @@ adbkey*
 *.jpeg
 *.webp
 *.pdf
+
+# Reviewed README screenshots only; firmware and other images stay excluded.
+!/docs/screenshots/01-dap-max-plus.png
+!/docs/screenshots/02-dark-settings.png
+!/docs/screenshots/03-projection.png
+!/docs/screenshots/04-picture.png
+!/docs/screenshots/05-equalizer.png
+!/docs/screenshots/06-brightness.png
+!/docs/screenshots/07-four-corners.png
+!/docs/screenshots/08-image-scale.png
+!/docs/screenshots/09-image-check.png
